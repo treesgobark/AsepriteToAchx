@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AESettingsSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OffsetMultiplier>1</OffsetMultiplier>
+  <AnimationChainSettings />
+  <ExpandedNode>Combat Ready Right</ExpandedNode>
+  <ExpandedNode>Jab Right</ExpandedNode>
+  <ExpandedNode>Cross Right</ExpandedNode>
+  <UnitType>Pixel</UnitType>
+  <SnapToGrid>false</SnapToGrid>
+  <GridSize>16</GridSize>
+</AESettingsSave>

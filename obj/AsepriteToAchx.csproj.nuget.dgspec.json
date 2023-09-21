@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\FRBDK\\Glue\\AsepriteToAchx\\AsepriteToAchx.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\Engines\\FlatRedBallXNA\\Standard\\FlatRedBallStandard\\FlatRedBallStandard\\FlatRedBallStandard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\Engines\\FlatRedBallXNA\\Standard\\FlatRedBallStandard\\FlatRedBallStandard\\FlatRedBallStandard.csproj",
+        "projectName": "FlatRedBallStandard",
+        "projectPath": "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\Engines\\FlatRedBallXNA\\Standard\\FlatRedBallStandard\\FlatRedBallStandard\\FlatRedBallStandard.csproj",
+        "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\Engines\\FlatRedBallXNA\\Standard\\FlatRedBallStandard\\FlatRedBallStandard\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Logan\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Logan\\source\\repos\\ANLG.Utilities\\ANLG.Utilities.FlatRedBall\\bin\\Debug": {},
+          "C:\\Users\\Logan\\source\\repos\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/UltzOS/Silk.NET/_packaging/Experimental/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MonoGame.Framework.DesktopGL.Core": {
+              "target": "Package",
+              "version": "[3.8.0.13, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\FRBDK\\Glue\\AsepriteToAchx\\AsepriteToAchx.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\FRBDK\\Glue\\AsepriteToAchx\\AsepriteToAchx.csproj",
+        "projectName": "AsepriteToAchx",
+        "projectPath": "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\FRBDK\\Glue\\AsepriteToAchx\\AsepriteToAchx.csproj",
+        "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\FRBDK\\Glue\\AsepriteToAchx\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Logan\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Logan\\source\\repos\\ANLG.Utilities\\ANLG.Utilities.FlatRedBall\\bin\\Debug": {},
+          "C:\\Users\\Logan\\source\\repos\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/UltzOS/Silk.NET/_packaging/Experimental/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\Engines\\FlatRedBallXNA\\Standard\\FlatRedBallStandard\\FlatRedBallStandard\\FlatRedBallStandard.csproj": {
+                "projectPath": "C:\\Users\\Logan\\source\\repos\\FlatRedBall\\Engines\\FlatRedBallXNA\\Standard\\FlatRedBallStandard\\FlatRedBallStandard\\FlatRedBallStandard.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AsepriteDotNet": {
+              "target": "Package",
+              "version": "[0.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
